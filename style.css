@@ -1,0 +1,86 @@
+/* border */
+
+body{
+    margin: 0;
+    background-color: #202124;
+    height: 100vh;
+    max-height: 100vh;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+/* header */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav div {
+    padding: 6px;
+    margin: 4px;
+}
+
+footer {
+    color: #9aa0a6;
+}
+
+footer div .links div{
+    margin-top: 8px;
+    padding: 10px;
+}
+
+input{
+    all: unset;
+    color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+button{
+    all: unset;
+    background-color: #303134;
+    border: 1px solid #303134;
+    cursor: pointer;
+    padding: 8px 15px 8px 15px ; 
+    border-radius: 4px;
+}
+
+button:hover{
+    border: 1px solid #bdc1c6;
+}
+
+/* icons  */
+
+svg{
+    width: 24px;
+    height: 24px;
+}
+
+/* my class */
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover{
+    background-color: #515151;
+    border-radius: 50%;
+}
+
+.search-bar:hover{
+    background-color: #303134;
+    border: 1px solid #202124 !important;
+}
+
+.google-offer:hover{
+    text-decoration: underline;
+}
+
+
